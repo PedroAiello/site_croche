@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>marianna crochê | bolsas de crochê feitas à mão no Rio</title>
+  <meta name="description" content="Bolsas e peças de crochê feitas à mão no Rio de Janeiro. Escolha na coleção ou monte a sua com a cor e o tamanho que quiser. Enviamos para todo o Brasil.">
+  <meta name="theme-color" content="#5A1220">
+
+  <!-- Depois de publicar, troque os caminhos abaixo pelo endereço completo do site (ex.: https://mariannacroche.com.br/assets/img/og.jpg) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="marianna crochê">
+  <meta property="og:title" content="marianna crochê | use crochê, use marianna">
+  <meta property="og:description" content="Bolsas de crochê feitas à mão no Rio de Janeiro, com encomendas personalizadas para todo o Brasil.">
+  <meta property="og:image" content="assets/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/bagel-fat-one-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Store",
+    "name": "marianna crochê",
+    "slogan": "use crochê, use marianna",
+    "description": "Bolsas e peças de crochê feitas à mão no Rio de Janeiro, com encomendas personalizadas e envio para todo o Brasil.",
+    "image": "assets/img/og.jpg",
+    "logo": "assets/logo/marianna-adesivo.svg",
+    "address": { "@type": "PostalAddress", "addressLocality": "Rio de Janeiro", "addressRegion": "RJ", "addressCountry": "BR" },
+    "areaServed": { "@type": "Country", "name": "Brasil" },
+    "sameAs": ["https://www.instagram.com/_mariannacroche/", "https://www.tiktok.com/@mariannacroche"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Vocês enviam pra minha cidade?", "acceptedAnswer": { "@type": "Answer", "text": "Enviamos para todo o Brasil. O frete é calculado pelo seu CEP quando a gente fecha o pedido no direct." } },
+      { "@type": "Question", "name": "Quanto tempo leva pra ficar pronta?", "acceptedAnswer": { "@type": "Answer", "text": "Depende do modelo e da fila de encomendas. Antes de começar, a gente te passa o prazo certinho." } },
+      { "@type": "Question", "name": "Posso pedir em outra cor ou tamanho?", "acceptedAnswer": { "@type": "Answer", "text": "Pode. A maioria das peças sai na cor e no tamanho que você quiser. Use o monte a sua ou mande sua ideia no direct." } },
+      { "@type": "Question", "name": "Como faço o pagamento?", "acceptedAnswer": { "@type": "Answer", "text": "Quando o pedido é confirmado no direct, a gente te passa as formas de pagamento disponíveis." } },
+      { "@type": "Question", "name": "Como cuido da minha peça?", "acceptedAnswer": { "@type": "Answer", "text": "Lave à mão, com água fria e sabão neutro, sem torcer. Seque à sombra e na horizontal, para a peça não perder a forma." } }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Logo vetorizada da marianna crochê (símbolo, adesivo redondo e selo com nome) -->
+  <svg class="defs" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="logo-mark" viewBox="0 0 100.83 78.42">
+        <path fill-rule="evenodd" d="M9.58,78.34C8.44,78.19 6.80,77.65 5.88,77.10C5.51,76.89 5.06,76.63 4.88,76.54C3.89,76.04 1.84,73.75 1.15,72.38C0.09,70.27 -0.23,66.68 0.12,60.67C0.19,59.50 0.29,57.85 0.34,57.00C0.45,55.00 0.55,53.95 0.76,52.67C0.85,52.10 0.98,50.98 1.05,50.17C1.11,49.37 1.19,48.65 1.21,48.58C1.23,48.51 1.30,47.91 1.37,47.24C1.44,46.58 1.61,45.38 1.75,44.58C1.89,43.78 2.04,42.73 2.09,42.25C2.21,41.03 2.45,39.52 2.88,37.38C3.08,36.37 3.34,35.01 3.45,34.37C3.57,33.72 3.72,33.03 3.80,32.83C3.87,32.62 4.04,31.86 4.18,31.12C4.31,30.39 4.59,29.19 4.80,28.46C5.01,27.72 5.27,26.75 5.37,26.29C5.58,25.39 6.01,23.96 6.47,22.62C6.63,22.17 6.96,21.21 7.20,20.50C7.45,19.79 7.72,19.04 7.81,18.83C7.90,18.63 8.10,18.10 8.24,17.67C8.39,17.24 8.60,16.73 8.71,16.55C8.82,16.36 9.00,15.95 9.12,15.64C9.47,14.70 11.26,11.20 12.00,10.00C15.04,5.05 18.75,1.47 21.67,0.66C22.20,0.52 22.89,0.32 23.21,0.23C24.54,-0.14 26.99,-0.05 29.25,0.46C30.73,0.79 32.08,1.41 33.46,2.39C34.36,3.03 35.94,4.49 36.44,5.15C37.31,6.28 38.97,8.83 39.21,9.41C39.36,9.76 39.61,10.30 39.77,10.62C40.20,11.48 41.05,13.95 41.38,15.29C41.53,15.93 41.71,16.62 41.78,16.81C41.85,17.00 41.95,17.45 42.00,17.81C42.05,18.17 42.28,19.38 42.51,20.50C42.90,22.42 43.14,23.85 43.34,25.50C43.39,25.89 43.52,26.77 43.63,27.46C43.92,29.30 44.06,30.30 44.12,31.00C44.27,32.75 44.54,34.82 44.83,36.54C45.01,37.60 45.22,38.95 45.29,39.55C45.52,41.41 46.39,44.74 46.89,45.67C47.57,46.91 48.13,47.34 49.18,47.40C50.37,47.47 51.07,47.07 51.64,45.99C51.87,45.55 51.87,45.52 51.86,44.17C51.86,42.93 51.83,42.68 51.59,41.71C51.45,41.11 51.28,40.23 51.21,39.76C51.14,39.28 50.96,38.44 50.82,37.88C50.68,37.33 50.39,35.99 50.16,34.92C49.93,33.84 49.68,32.66 49.59,32.29C49.50,31.93 49.23,30.39 48.99,28.88C48.57,26.30 48.55,26.03 48.55,24.62C48.54,22.06 48.94,20.19 49.87,18.28C50.49,17.03 50.50,17.02 51.35,16.21C52.43,15.18 52.64,15.05 53.96,14.48C55.52,13.80 56.27,13.64 58.46,13.51C61.03,13.36 64.59,13.72 69.24,14.58C70.81,14.87 75.22,16.03 76.04,16.37C76.32,16.49 76.85,16.66 77.23,16.75C77.61,16.85 78.14,17.02 78.40,17.13C78.66,17.25 79.14,17.44 79.46,17.56C80.00,17.75 82.17,18.72 82.54,18.93C82.63,18.98 83.10,19.23 83.58,19.48C85.78,20.63 88.92,22.61 90.33,23.75C90.77,24.10 91.26,24.47 91.42,24.58C91.99,24.97 94.48,27.57 95.53,28.88C96.97,30.67 98.03,32.30 98.75,33.82C99.07,34.51 99.33,35.09 99.33,35.12C99.33,35.15 99.50,35.59 99.70,36.11C100.18,37.32 100.29,37.75 100.58,39.70C101.29,44.31 100.52,47.53 98.06,50.33C95.73,52.98 93.01,54.12 89.38,53.97C86.21,53.85 83.47,52.55 81.43,50.21C80.04,48.62 79.75,48.06 78.96,45.42C78.60,44.21 78.57,44.03 78.49,42.71C78.39,41.03 78.47,33.80 78.60,32.75C78.75,31.51 78.71,25.48 78.55,24.83C78.13,23.20 76.90,21.54 75.62,20.92C74.51,20.37 73.07,20.23 71.71,20.53C70.72,20.76 70.30,20.99 69.31,21.88C68.51,22.59 68.35,22.79 67.82,23.68C67.17,24.78 66.65,25.90 66.17,27.29C65.99,27.80 65.77,28.41 65.67,28.66C65.57,28.91 65.38,29.59 65.24,30.16C65.10,30.74 64.88,31.58 64.75,32.04C64.62,32.50 64.45,33.27 64.38,33.75C64.31,34.23 64.06,35.56 63.84,36.71C63.61,37.85 63.33,39.58 63.21,40.54C63.09,41.50 62.86,42.86 62.70,43.55C62.55,44.23 62.34,45.40 62.25,46.13C62.15,46.86 62.02,47.78 61.96,48.17C61.78,49.21 61.12,53.74 60.96,54.97C60.89,55.56 60.74,56.49 60.63,57.04C60.52,57.59 60.31,58.75 60.17,59.62C60.03,60.50 59.80,61.64 59.67,62.17C59.53,62.69 59.36,63.48 59.29,63.91C59.22,64.34 59.01,65.09 58.84,65.58C58.66,66.06 58.41,66.79 58.29,67.20C57.98,68.23 57.30,69.57 56.35,70.99C55.35,72.47 54.90,73.00 53.49,74.31C52.39,75.33 52.37,75.34 50.96,76.03C49.03,76.98 47.78,77.46 46.88,77.62C44.94,77.94 43.90,78.02 42.33,77.98C40.56,77.92 39.77,77.78 38.41,77.27C37.93,77.08 37.28,76.86 36.96,76.76C35.55,76.35 31.97,73.63 30.98,72.23C30.81,71.99 30.43,71.45 30.14,71.04C27.93,67.93 27.05,63.70 27.75,59.54C27.84,59.04 27.95,58.29 28.00,57.87C28.14,56.67 28.41,55.12 28.59,54.47C28.69,54.14 28.98,52.79 29.25,51.46C29.52,50.13 29.78,48.93 29.83,48.79C30.04,48.26 30.58,45.65 30.58,45.19C30.58,44.59 30.38,44.19 29.99,43.98C29.73,43.85 29.31,43.82 26.45,43.75C21.33,43.62 19.93,43.64 19.59,43.82C18.98,44.15 18.88,44.76 19.17,46.37C19.26,46.87 19.33,47.43 19.33,47.62C19.33,47.81 19.41,48.41 19.50,48.96C19.59,49.51 19.88,51.25 20.13,52.83C20.38,54.41 20.68,56.12 20.79,56.62C21.08,57.94 21.82,62.77 21.93,64.00C22.06,65.56 22.06,68.26 21.93,69.00C21.70,70.28 21.04,72.15 20.62,72.71C20.52,72.85 20.34,73.15 20.23,73.38C19.38,75.06 16.72,77.16 14.58,77.84C13.12,78.30 10.96,78.51 9.58,78.34ZM32.10,37.77C32.35,37.55 32.56,37.09 32.66,36.53C32.71,36.25 32.85,35.71 32.96,35.32C33.18,34.59 33.52,32.80 33.71,31.35C33.78,30.88 33.88,30.15 33.95,29.73C34.70,25.02 34.65,18.86 33.83,16.08C33.33,14.38 32.33,12.72 31.13,11.60C29.93,10.48 28.02,9.91 25.84,10.02C24.10,10.12 22.85,10.65 21.47,11.88C20.95,12.35 20.50,12.83 20.36,13.06C20.24,13.28 19.96,13.76 19.74,14.13C19.52,14.49 19.21,15.17 19.05,15.63C18.89,16.08 18.69,16.65 18.60,16.88C18.51,17.10 18.41,17.50 18.38,17.75C18.35,18.00 18.21,18.77 18.08,19.46C17.95,20.15 17.80,21.00 17.75,21.36C17.27,24.96 17.54,35.31 18.15,36.48C18.49,37.14 19.01,37.29 20.08,37.04C20.38,36.97 21.41,36.80 22.38,36.66C24.00,36.42 24.26,36.41 26.00,36.44C28.13,36.48 28.76,36.59 29.75,37.15C31.39,38.07 31.69,38.15 32.10,37.77Z"/>
+        <circle cx="78.58" cy="66.63" r="11.4"/>
+      </symbol>
+      <symbol id="logo-adesivo" viewBox="0 0 149 149">
+        <circle cx="74.5" cy="74.5" r="74.5" fill="#fff"/>
+        <use href="#logo-mark" x="28" y="31" width="100.83" height="78.42" fill="#000"/>
+      </symbol>
+      <symbol id="logo-selo" viewBox="0 0 149 149">
+        <circle cx="74.5" cy="74.5" r="74.5" fill="#fff"/>
+        <use href="#logo-mark" x="40.5" y="34" width="70" height="54.44" fill="#000"/>
+        <text x="74.5" y="111" text-anchor="middle" fill="#000" font-family="Bricolage Grotesque, system-ui, sans-serif" font-size="12.5" font-weight="500" letter-spacing=".2">marianna crochê</text>
+      </symbol>
+      <symbol id="i-sacola" viewBox="0 0 24 24">
+        <path d="M5.2 8.5h13.6l-1.1 10.6a2 2 0 0 1-2 1.9H8.3a2 2 0 0 1-2-1.9Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M9 8.5V7a3 3 0 0 1 6 0v1.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-brilho" viewBox="0 0 24 24">
+        <path d="M12 0c.6 6.4 5.6 11.4 12 12-6.4.6-11.4 5.6-12 12-.6-6.4-5.6-11.4-12-12C6.4 11.4 11.4 6.4 12 0Z"/>
+      </symbol>
+      <symbol id="i-mais" viewBox="0 0 24 24">
+        <path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-ok" viewBox="0 0 24 24">
+        <path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+      <symbol id="i-fechar" viewBox="0 0 24 24">
+        <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-instagram" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/>
+        <circle cx="17.3" cy="6.7" r="1.2" fill="currentColor"/>
+      </symbol>
+      <symbol id="i-tiktok" viewBox="0 0 24 24">
+        <path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M14 3c.4 2.9 2.4 4.8 5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-whatsapp" viewBox="0 0 24 24">
+        <path d="M4 20l1.2-3.6A8 8 0 1 1 8 19.1Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M9.2 8.6c.3-.6.8-.6 1.1 0l.6 1.3c.1.3 0 .6-.2.8l-.5.5c.5 1.1 1.4 2 2.5 2.5l.5-.5c.2-.2.5-.3.8-.2l1.3.6c.6.3.6.8 0 1.1-.9.6-2 .8-3.4 0a8.2 8.2 0 0 1-3-3c-.6-1.2-.4-2.4.3-3.1Z" fill="currentColor"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo" data-topo>
+    <div class="topo__in">
+      <a class="marca" href="#inicio" aria-label="marianna crochê, voltar ao início">
+        <svg class="marca__simbolo" aria-hidden="true"><use href="#logo-mark"/></svg>
+        <span class="marca__nome" aria-hidden="true">marianna crochê</span>
+      </a>
+      <nav class="menu" aria-label="Principal">
+        <a href="#colecao">Coleção</a>
+        <a href="#monte">Monte a sua</a>
+        <a href="#como">Como funciona</a>
+        <a href="#perguntas">Perguntas</a>
+      </nav>
+      <button class="botao-sacola" type="button" data-abrir-sacola aria-haspopup="dialog" aria-controls="sacola">
+        <svg aria-hidden="true"><use href="#i-sacola"/></svg>
+        <span class="botao-sacola__texto">Sacola</span>
+        <span class="botao-sacola__qtd" data-qtd>0</span>
+        <span class="sr-only" data-qtd-leitor>, nenhum item</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+
+    <!-- ==================== INÍCIO ==================== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="hero__in">
+        <div class="hero__texto">
+          <h1 class="hero__titulo" id="hero-titulo">use crochê,<br> use marianna<svg class="hero__brilho" aria-hidden="true"><use href="#i-brilho"/></svg></h1>
+          <p class="hero__sub">Bolsas e peças de crochê feitas à mão, ponto por ponto, no Rio de Janeiro. Daqui pra qualquer cantinho do Brasil.</p>
+          <div class="hero__acoes">
+            <a class="botao botao--claro" href="#colecao">Ver a coleção</a>
+            <a class="botao botao--contorno" href="#monte">Monte a sua</a>
+          </div>
+        </div>
+
+        <div class="varal">
+          <svg class="varal__fio" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M-10,12 Q50,34 110,8"/>
+          </svg>
+          <div class="pendente pendente--1">
+            <figure class="etiqueta">
+              <img src="assets/img/bolsa-chocolate.webp" srcset="assets/img/bolsa-chocolate-300.webp 300w, assets/img/bolsa-chocolate.webp 558w" sizes="(max-width: 880px) 30vw, 210px" width="558" height="744" alt="Bolsa quadrada de crochê marrom-chocolate segurada pela alça, com a etiqueta ilustrada da marca">
+              <figcaption>chocolate</figcaption>
+            </figure>
+          </div>
+          <div class="pendente pendente--2">
+            <figure class="etiqueta etiqueta--listrada">
+              <img src="assets/img/colecao-mesa.webp" srcset="assets/img/colecao-mesa-300.webp 300w, assets/img/colecao-mesa.webp 558w" sizes="(max-width: 880px) 30vw, 210px" width="558" height="744" alt="Várias bolsas de crochê juntas: uma off-white com a etiqueta da marca, uma listrada em tons de marrom, uma preta e uma estampada em rosa e azul">
+              <figcaption>a coleção da vez</figcaption>
+            </figure>
+          </div>
+          <div class="pendente pendente--3">
+            <figure class="etiqueta">
+              <img src="assets/img/bolsa-praia.webp" srcset="assets/img/bolsa-praia-300.webp 300w, assets/img/bolsa-praia.webp 430w" sizes="(max-width: 880px) 30vw, 210px" width="430" height="576" alt="Bolsa de praia de crochê em rede off-white com óculos de sol, piranha de cabelo e protetor solar">
+              <figcaption>pra praia</figcaption>
+            </figure>
+          </div>
+          <svg class="adesivo hero__adesivo" role="img" aria-label="Logo da marianna crochê"><use href="#logo-adesivo"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== COLEÇÃO ==================== -->
+    <section class="secao colecao" id="colecao" aria-labelledby="colecao-titulo">
+      <div class="wrap">
+        <div class="colecao__topo">
+          <div>
+            <h2 class="titulo" id="colecao-titulo">a coleção</h2>
+            <p class="lead">Cada peça é feita à mão, uma de cada vez. Gostou de alguma? Escolha a cor, coloque na sacola e finalize pelo direct.</p>
+          </div>
+          <div class="filtros" role="group" aria-label="Filtrar a coleção">
+            <button class="filtro" type="button" data-filtro="tudo" aria-pressed="true">Tudo</button>
+            <button class="filtro" type="button" data-filtro="bolsas" aria-pressed="false">Bolsas</button>
+            <button class="filtro" type="button" data-filtro="vestir" aria-pressed="false">Pra vestir</button>
+            <button class="filtro" type="button" data-filtro="casa" aria-pressed="false">Pra casa</button>
+          </div>
+        </div>
+
+        <!--
+          Para adicionar uma peça: copie um <li class="peca"> inteiro e troque
+          data-id (único), data-nome, data-cat (bolsas | vestir | casa), a foto e as cores.
+          As cores usam os nomes da lista FIOS em assets/js/app.js (use + para combinar duas ou mais).
+          Para mostrar preço, troque o texto "sob encomenda" por "R$ 189".
+        -->
+        <ul class="grade" data-grade>
+          <li class="peca" data-cat="bolsas">
+            <article class="peca__in" data-id="quadrada" data-nome="Bolsa quadrada">
+              <div class="peca__foto">
+                <img src="assets/img/bolsa-chocolate.webp" srcset="assets/img/bolsa-chocolate-300.webp 300w, assets/img/bolsa-chocolate.webp 558w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="558" height="744" loading="lazy" decoding="async" alt="Bolsa quadrada de crochê marrom-chocolate segurada pela alça, com a etiqueta ilustrada da marca">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Bolsa quadrada</h3>
+              <p class="peca__desc">Formato quadradinho e alças curtas pra levar na mão.</p>
+              <fieldset class="cores" data-cores="chocolate caramelo preto off-white"><legend class="sr-only">Cor da Bolsa quadrada</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+          <li class="peca" data-cat="bolsas">
+            <article class="peca__in" data-id="corrente" data-nome="Bolsa com corrente">
+              <div class="peca__foto">
+                <img src="assets/img/bolsa-corrente-preta.webp" srcset="assets/img/bolsa-corrente-preta-300.webp 300w, assets/img/bolsa-corrente-preta.webp 554w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="554" height="744" loading="lazy" decoding="async" alt="Bolsa de crochê preta e fofinha, com alça vazada e corrente prateada">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Bolsa com corrente</h3>
+              <p class="peca__desc">Bem fofinha, com alça vazada e corrente prateada.</p>
+              <fieldset class="cores" data-cores="preto off-white vinho"><legend class="sr-only">Cor da Bolsa com corrente</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+          <li class="peca" data-cat="bolsas">
+            <article class="peca__in" data-id="baguete" data-nome="Baguete de ombro">
+              <div class="peca__foto">
+                <img src="assets/img/baguete-ombro.webp" srcset="assets/img/baguete-ombro-300.webp 300w, assets/img/baguete-ombro.webp 558w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="558" height="744" loading="lazy" decoding="async" alt="Duas bolsas baguete de crochê, uma preta e uma off-white, penduradas em cabides de madeira">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Baguete de ombro</h3>
+              <p class="peca__desc">Alça longa trançada pra usar no ombro.</p>
+              <fieldset class="cores" data-cores="preto off-white chocolate"><legend class="sr-only">Cor da Baguete de ombro</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+          <li class="peca" data-cat="bolsas">
+            <article class="peca__in" data-id="oval" data-nome="Bolsa oval">
+              <div class="peca__foto">
+                <img src="assets/img/bolsa-vinho.webp" srcset="assets/img/bolsa-vinho-300.webp 300w, assets/img/bolsa-vinho.webp 432w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="432" height="578" loading="lazy" decoding="async" alt="Bolsa oval de crochê cor de vinho com alça vazada e plaquinha dourada da marca">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Bolsa oval</h3>
+              <p class="peca__desc">Larga, com a alça vazada no próprio crochê.</p>
+              <fieldset class="cores" data-cores="vinho preto chocolate"><legend class="sr-only">Cor da Bolsa oval</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+          <li class="peca" data-cat="bolsas">
+            <article class="peca__in" data-id="trancada" data-nome="Bolsa trançada bicolor">
+              <div class="peca__foto">
+                <img src="assets/img/bolsa-trancada.webp" srcset="assets/img/bolsa-trancada-300.webp 300w, assets/img/bolsa-trancada.webp 430w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="430" height="578" loading="lazy" decoding="async" alt="Bolsa de crochê em trança grossa vermelha e branca, com alça vazada">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Bolsa trançada bicolor</h3>
+              <p class="peca__desc">Trança grossa em duas cores, cheia de volume.</p>
+              <fieldset class="cores" data-cores="vermelho+off-white preto+off-white chocolate+off-white"><legend class="sr-only">Cores da Bolsa trançada bicolor</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+          <li class="peca" data-cat="bolsas">
+            <article class="peca__in" data-id="praia" data-nome="Bolsa de praia em rede">
+              <div class="peca__foto">
+                <img src="assets/img/bolsa-praia.webp" srcset="assets/img/bolsa-praia-300.webp 300w, assets/img/bolsa-praia.webp 430w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="430" height="576" loading="lazy" decoding="async" alt="Bolsa de praia de crochê em rede off-white com óculos de sol, piranha de cabelo e protetor solar">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Bolsa de praia em rede</h3>
+              <p class="peca__desc">Ponto aberto e leve, pra praia e piscina.</p>
+              <fieldset class="cores" data-cores="off-white areia"><legend class="sr-only">Cor da Bolsa de praia em rede</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+          <li class="peca" data-cat="vestir">
+            <article class="peca__in" data-id="top-granny" data-nome="Top granny">
+              <div class="peca__foto">
+                <img src="assets/img/top-granny.webp" srcset="assets/img/top-granny-300.webp 300w, assets/img/top-granny.webp 430w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="430" height="576" loading="lazy" decoding="async" alt="Top de crochê triangular verde, amarelo, azul e branco, com uma câmera digital mostrando a peça vestida">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Top granny</h3>
+              <p class="peca__desc">Top de amarrar em pontos granny, nas cores do Brasil.</p>
+              <fieldset class="cores" data-cores="verde+amarelo+azul"><legend class="sr-only">Cores do Top granny</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+          <li class="peca" data-cat="casa">
+            <article class="peca__in" data-id="pote" data-nome="Pote de crochê">
+              <div class="peca__foto">
+                <img src="assets/img/pote-amarelo.webp" srcset="assets/img/pote-amarelo-300.webp 300w, assets/img/pote-amarelo.webp 430w" sizes="(max-width: 760px) 46vw, (max-width: 1100px) 30vw, 282px" width="430" height="576" loading="lazy" decoding="async" alt="Pote de crochê amarelo com tampa de madeira, segurado com as duas mãos">
+                <span class="plaquinha">sob encomenda</span>
+              </div>
+              <h3 class="peca__nome">Pote de crochê</h3>
+              <p class="peca__desc">Pra organizar a casa com o mesmo fio grosso das bolsas.</p>
+              <fieldset class="cores" data-cores="amarelo off-white rosa"><legend class="sr-only">Cor do Pote de crochê</legend></fieldset>
+              <button class="botao-add" type="button" data-add><svg aria-hidden="true"><use href="#i-mais"/></svg><span>Adicionar</span></button>
+            </article>
+          </li>
+        </ul>
+        <p class="colecao__vazio" data-vazio hidden>Nenhuma peça nessa categoria por enquanto. Que tal montar a sua?</p>
+      </div>
+    </section>
+
+    <!-- ==================== MONTE A SUA ==================== -->
+    <section class="secao monte" id="monte" aria-labelledby="monte-titulo">
+      <div class="wrap monte__grade">
+        <div class="monte__cabeca">
+          <h2 class="titulo" id="monte-titulo">monte a sua</h2>
+          <p class="lead">Escolha o modelo, a cor e o tamanho. A gente confirma o valor e o prazo pelo direct antes de começar.</p>
+        </div>
+
+        <figure class="provador">
+          <svg class="provador__svg" viewBox="0 0 420 380" role="img" aria-labelledby="provador-resumo" data-provador>
+            <defs>
+              <!-- ponto em V do fio grosso (2 carreiras: a segunda usa a cor da listra) -->
+              <pattern id="ponto" width="22" height="36" patternUnits="userSpaceOnUse" patternTransform="translate(0 6)">
+                <rect class="f-yd" width="22" height="36"/>
+                <g stroke="#000" stroke-opacity=".2" stroke-width=".7">
+                  <!-- cópias das carreiras vizinhas para os laços se encaixarem sem emenda -->
+                  <ellipse class="f-y2" cx="6.4" cy="-9" rx="3.9" ry="10.6" transform="rotate(-36 6.4 -9)"/>
+                  <ellipse class="f-y2" cx="15.6" cy="-9" rx="3.9" ry="10.6" transform="rotate(36 15.6 -9)"/>
+                  <ellipse class="f-y" cx="6.4" cy="45" rx="3.9" ry="10.6" transform="rotate(-36 6.4 45)"/>
+                  <ellipse class="f-y" cx="15.6" cy="45" rx="3.9" ry="10.6" transform="rotate(36 15.6 45)"/>
+                  <ellipse class="f-y2" cx="6.4" cy="27" rx="3.9" ry="10.6" transform="rotate(-36 6.4 27)"/>
+                  <ellipse class="f-y2" cx="15.6" cy="27" rx="3.9" ry="10.6" transform="rotate(36 15.6 27)"/>
+                  <ellipse class="f-y" cx="6.4" cy="9" rx="3.9" ry="10.6" transform="rotate(-36 6.4 9)"/>
+                  <ellipse class="f-y" cx="15.6" cy="9" rx="3.9" ry="10.6" transform="rotate(36 15.6 9)"/>
+                </g>
+                <g fill="#fff" opacity=".22">
+                  <ellipse cx="4.6" cy="5.6" rx="1.1" ry="4.4" transform="rotate(-36 4.6 5.6)"/>
+                  <ellipse cx="17.4" cy="5.6" rx="1.1" ry="4.4" transform="rotate(36 17.4 5.6)"/>
+                  <ellipse cx="4.6" cy="23.6" rx="1.1" ry="4.4" transform="rotate(-36 4.6 23.6)"/>
+                  <ellipse cx="17.4" cy="23.6" rx="1.1" ry="4.4" transform="rotate(36 17.4 23.6)"/>
+                </g>
+              </pattern>
+              <pattern id="rede" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(45 210 240)">
+                <path class="s-y" d="M0 11H22M11 0V22" stroke-width="2.8" fill="none"/>
+                <circle class="f-y" cx="11" cy="11" r="2.9"/>
+                <circle class="f-y2" cx="0" cy="0" r="2.9"/>
+                <circle class="f-y2" cx="22" cy="22" r="2.9"/>
+              </pattern>
+              <linearGradient id="volume" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#fff" stop-opacity=".2"/>
+                <stop offset=".42" stop-color="#fff" stop-opacity="0"/>
+                <stop offset="1" stop-color="#1a0806" stop-opacity=".34"/>
+              </linearGradient>
+              <radialGradient id="brilho-bolsa" cx=".32" cy=".22" r=".7">
+                <stop offset="0" stop-color="#fff" stop-opacity=".22"/>
+                <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+              </radialGradient>
+              <radialGradient id="chao" cx=".5" cy=".5" r=".5">
+                <stop offset="0" stop-color="#3a1408" stop-opacity=".32"/>
+                <stop offset="1" stop-color="#3a1408" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="ouro" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#F3DFA2"/>
+                <stop offset=".55" stop-color="#C79A45"/>
+                <stop offset="1" stop-color="#EDD089"/>
+              </linearGradient>
+            </defs>
+            <g data-bolsa></g>
+          </svg>
+          <figcaption class="provador__resumo" id="provador-resumo" data-resumo aria-live="polite">Bolsa quadrada em vinho, tamanho M</figcaption>
+        </figure>
+
+        <form class="monte__form" data-monte>
+          <fieldset class="passo">
+            <legend class="passo__rotulo"><span class="passo__n" aria-hidden="true">1</span>Modelo</legend>
+            <div class="modelos">
+              <label class="modelo">
+                <input type="radio" name="modelo" value="quadrada" checked>
+                <span class="modelo__caixa">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 9.5h11l1.3 9.6a1.6 1.6 0 0 1-1.6 1.9H6.8a1.6 1.6 0 0 1-1.6-1.9Z"/><path d="M9 9.5c0-4 6-4 6 0"/></svg>
+                  Bolsa quadrada
+                </span>
+              </label>
+              <label class="modelo">
+                <input type="radio" name="modelo" value="baguete">
+                <span class="modelo__caixa">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="12.5" width="17" height="7.5" rx="3.6"/><path d="M6.4 13C5.8 3.5 18.2 3.5 17.6 13"/></svg>
+                  Baguete de ombro
+                </span>
+              </label>
+              <label class="modelo">
+                <input type="radio" name="modelo" value="corrente">
+                <span class="modelo__caixa">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.5 11.5a5.5 5.5 0 0 1 5.5-5.5h4a5.5 5.5 0 0 1 5.5 5.5v5a4 4 0 0 1-4 4h-7a4 4 0 0 1-4-4Z"/><ellipse cx="12" cy="9.6" rx="2.8" ry="1.3"/><path d="M5 14.2q7 6.6 14 0" stroke-dasharray="1.5 1.6"/></svg>
+                  Bolsa com corrente
+                </span>
+              </label>
+              <label class="modelo">
+                <input type="radio" name="modelo" value="praia">
+                <span class="modelo__caixa">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.4 10.5h9.2l2.6 8.9a1.2 1.2 0 0 1-1.2 1.6H6a1.2 1.2 0 0 1-1.2-1.6Z"/><path d="M8.4 10.5C8.6 6.5 12 4.2 12 4.2s3.4 2.3 3.6 6.3"/><path d="M7 14.2h10M6.2 17.6h11.6" stroke-width="1"/></svg>
+                  Bolsa de praia
+                </span>
+              </label>
+            </div>
+          </fieldset>
+
+          <fieldset class="passo">
+            <legend class="passo__rotulo"><span class="passo__n" aria-hidden="true">2</span>Cor</legend>
+            <div class="novelos" data-novelos="cor1"></div>
+            <label class="troca">
+              <input type="checkbox" name="listrada" data-listrada>
+              <span class="troca__trilho" aria-hidden="true"></span>
+              Quero listrada, com uma segunda cor
+            </label>
+            <div class="novelos novelos--segunda" data-novelos="cor2" hidden></div>
+          </fieldset>
+
+          <fieldset class="passo">
+            <legend class="passo__rotulo"><span class="passo__n" aria-hidden="true">3</span>Tamanho</legend>
+            <div class="tamanhos">
+              <label class="tamanho"><input type="radio" name="tamanho" value="P"><span><abbr title="Pequena">P</abbr></span></label>
+              <label class="tamanho"><input type="radio" name="tamanho" value="M" checked><span><abbr title="Média">M</abbr></span></label>
+              <label class="tamanho"><input type="radio" name="tamanho" value="G"><span><abbr title="Grande">G</abbr></span></label>
+            </div>
+          </fieldset>
+
+          <div class="passo">
+            <label class="passo__rotulo" for="detalhes"><span class="passo__n" aria-hidden="true">4</span>Algum detalhe? <span class="opcional">(opcional)</span></label>
+            <textarea id="detalhes" name="detalhes" rows="3" maxlength="280" placeholder="Ex.: alça um pouco mais longa, é presente pra minha irmã…"></textarea>
+          </div>
+
+          <button class="botao botao--claro botao--grande" type="submit">
+            <svg aria-hidden="true"><use href="#i-sacola"/></svg>
+            Adicionar à sacola
+          </button>
+          <p class="miudo">Nada é cobrado aqui. O pedido só fecha depois da nossa conversa no direct.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ==================== COMO FUNCIONA ==================== -->
+    <section class="secao como" id="como" aria-labelledby="como-titulo">
+      <div class="wrap">
+        <h2 class="titulo" id="como-titulo">como funciona</h2>
+        <ol class="passos">
+          <li class="passos__item">
+            <span class="passos__n" aria-hidden="true">1</span>
+            <h3>Escolha</h3>
+            <p>Uma peça da coleção ou uma do zero, no monte a sua.</p>
+          </li>
+          <li class="passos__item">
+            <span class="passos__n" aria-hidden="true">2</span>
+            <h3>Chama no direct</h3>
+            <p>A gente te passa valor, prazo e frete, e tira todas as dúvidas.</p>
+          </li>
+          <li class="passos__item">
+            <span class="passos__n" aria-hidden="true">3</span>
+            <h3>Feita à mão</h3>
+            <p>Sua peça é tecida ponto por ponto, só pra você.</p>
+          </li>
+          <li class="passos__item">
+            <span class="passos__n" aria-hidden="true">4</span>
+            <h3>Chega em casa</h3>
+            <p>Embaladinha, com etiqueta e adesivo, em qualquer cidade do Brasil.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ==================== EMBALAGEM ==================== -->
+    <section class="secao chega" aria-labelledby="chega-titulo">
+      <div class="wrap chega__grade">
+        <div class="chega__foto">
+          <img src="assets/img/embalagem.webp" width="432" height="576" loading="lazy" decoding="async" alt="Sacola de papel kraft e cartela de adesivos redondos com a logo da marianna crochê">
+          <svg class="adesivo chega__adesivo" aria-hidden="true"><use href="#logo-adesivo"/></svg>
+        </div>
+        <div class="chega__texto">
+          <h2 class="titulo" id="chega-titulo">chega assim</h2>
+          <p class="lead">Cada pedido sai daqui com etiqueta, adesivo e a plaquinha dourada na peça. Do Rio de Janeiro pra sua casa, onde você estiver.</p>
+          <ul class="selos">
+            <li><svg aria-hidden="true"><use href="#i-brilho"/></svg>Feita à mão, uma peça por vez</li>
+            <li><svg aria-hidden="true"><use href="#i-brilho"/></svg>Cor e tamanho do seu jeito</li>
+            <li><svg aria-hidden="true"><use href="#i-brilho"/></svg>Envio para todo o Brasil</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PERGUNTAS ==================== -->
+    <section class="secao perguntas" id="perguntas" aria-labelledby="perguntas-titulo">
+      <div class="wrap perguntas__grade">
+        <div class="perguntas__cabeca">
+          <h2 class="titulo" id="perguntas-titulo">perguntas</h2>
+          <p class="lead">Não achou o que procurava? Manda sua dúvida que a gente responde.</p>
+          <a class="botao botao--linha" href="https://ig.me/m/_mariannacroche" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg>Chamar no direct</a>
+        </div>
+        <div class="faq">
+          <details class="faq__item">
+            <summary>Vocês enviam pra minha cidade?</summary>
+            <p>Enviamos para todo o Brasil. O frete é calculado pelo seu CEP quando a gente fecha o pedido no direct.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Quanto tempo leva pra ficar pronta?</summary>
+            <p>Depende do modelo e da fila de encomendas. Antes de começar, a gente te passa o prazo certinho.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Posso pedir em outra cor ou tamanho?</summary>
+            <p>Pode. A maioria das peças sai na cor e no tamanho que você quiser. Use o monte a sua ou mande sua ideia no direct.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Como faço o pagamento?</summary>
+            <p>Quando o pedido é confirmado no direct, a gente te passa as formas de pagamento disponíveis.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Como cuido da minha peça?</summary>
+            <p>Lave à mão, com água fria e sabão neutro, sem torcer. Seque à sombra e na horizontal, para a peça não perder a forma.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== INSTAGRAM ==================== -->
+    <section class="secao segue" aria-labelledby="segue-titulo">
+      <div class="wrap">
+        <p class="segue__pre">Bastidores, peças novas e as encomendas de vocês</p>
+        <h2 class="segue__titulo" id="segue-titulo"><a href="https://www.instagram.com/_mariannacroche/" target="_blank" rel="noopener">@_mariannacroche</a></h2>
+        <a class="feed" href="https://www.instagram.com/_mariannacroche/" target="_blank" rel="noopener">
+          <span class="sr-only">Ver mais fotos no Instagram da marianna crochê</span>
+          <img src="assets/img/short-renda.webp" srcset="assets/img/short-renda-300.webp 300w, assets/img/short-renda.webp 432w" sizes="(max-width: 760px) 31vw, 190px" width="432" height="576" loading="lazy" decoding="async" alt="">
+          <img src="assets/img/bolsa-trancada.webp" srcset="assets/img/bolsa-trancada-300.webp 300w, assets/img/bolsa-trancada.webp 430w" sizes="(max-width: 760px) 31vw, 190px" width="430" height="578" loading="lazy" decoding="async" alt="">
+          <img src="assets/img/top-granny.webp" srcset="assets/img/top-granny-300.webp 300w, assets/img/top-granny.webp 430w" sizes="(max-width: 760px) 31vw, 190px" width="430" height="576" loading="lazy" decoding="async" alt="">
+          <img src="assets/img/pote-amarelo.webp" srcset="assets/img/pote-amarelo-300.webp 300w, assets/img/pote-amarelo.webp 430w" sizes="(max-width: 760px) 31vw, 190px" width="430" height="576" loading="lazy" decoding="async" alt="">
+          <img src="assets/img/baguete-ombro.webp" srcset="assets/img/baguete-ombro-300.webp 300w, assets/img/baguete-ombro.webp 558w" sizes="(max-width: 760px) 31vw, 190px" width="558" height="744" loading="lazy" decoding="async" alt="">
+          <img src="assets/img/bolsa-corrente-preta.webp" srcset="assets/img/bolsa-corrente-preta-300.webp 300w, assets/img/bolsa-corrente-preta.webp 554w" sizes="(max-width: 760px) 31vw, 190px" width="554" height="744" loading="lazy" decoding="async" alt="">
+        </a>
+        <div class="segue__redes">
+          <a class="botao botao--escuro" href="https://www.instagram.com/_mariannacroche/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg>Seguir no Instagram</a>
+          <a class="botao botao--linha" href="https://www.tiktok.com/@mariannacroche" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-tiktok"/></svg>Ver no TikTok</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== RODAPÉ ==================== -->
+  <footer class="rodape">
+    <div class="wrap rodape__grade">
+      <div class="rodape__marca">
+        <svg class="rodape__selo" role="img" aria-label="Selo da marianna crochê"><use href="#logo-selo"/></svg>
+        <p class="rodape__slogan">use crochê,<br> use marianna</p>
+      </div>
+      <nav class="rodape__menu" aria-label="Rodapé">
+        <a href="#colecao">Coleção</a>
+        <a href="#monte">Monte a sua</a>
+        <a href="#como">Como funciona</a>
+        <a href="#perguntas">Perguntas</a>
+      </nav>
+      <div class="rodape__contato">
+        <p>Feito à mão no Rio de Janeiro.<br>Enviamos para todo o Brasil.</p>
+        <p class="rodape__redes">
+          <a href="https://www.instagram.com/_mariannacroche/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-instagram"/></svg>Instagram</a>
+          <a href="https://www.tiktok.com/@mariannacroche" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-tiktok"/></svg>TikTok</a>
+          <a href="#" data-whatsapp-link hidden target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a>
+        </p>
+      </div>
+    </div>
+    <p class="rodape__base wrap">© <span data-ano>2026</span> marianna crochê</p>
+  </footer>
+
+  <!-- ==================== SACOLA ==================== -->
+  <dialog class="sacola" id="sacola" aria-labelledby="sacola-titulo">
+    <div class="sacola__in">
+      <div class="sacola__topo">
+        <h2 class="sacola__titulo" id="sacola-titulo">sua sacola</h2>
+        <button class="sacola__fechar" type="button" data-fechar-sacola aria-label="Fechar sacola"><svg aria-hidden="true"><use href="#i-fechar"/></svg></button>
+      </div>
+      <div class="sacola__corpo">
+        <ul class="itens" data-itens></ul>
+        <div class="sacola__vazia" data-sacola-vazia>
+          <svg class="sacola__vazia-icone" aria-hidden="true"><use href="#i-sacola"/></svg>
+          <p>Sua sacola está vazia por enquanto.</p>
+          <a class="botao botao--escuro" href="#colecao" data-fechar-sacola>Ver a coleção</a>
+        </div>
+      </div>
+      <div class="sacola__pe" data-sacola-pe hidden>
+        <p class="miudo">Valores, prazo e frete são combinados na conversa. Ao finalizar, a mensagem do pedido é copiada e o direct abre em outra aba.</p>
+        <button class="botao botao--vermelho botao--grande botao--bloco" type="button" data-finalizar="instagram"><svg aria-hidden="true"><use href="#i-instagram"/></svg>Finalizar pelo direct</button>
+        <button class="botao botao--whats botao--grande botao--bloco" type="button" data-finalizar="whatsapp" hidden><svg aria-hidden="true"><use href="#i-whatsapp"/></svg>Finalizar pelo WhatsApp</button>
+        <button class="botao-texto" type="button" data-copiar>Só copiar a mensagem do pedido</button>
+        <label class="sr-only" for="mensagem-pedido">Mensagem do pedido</label>
+        <textarea class="sacola__mensagem" id="mensagem-pedido" data-mensagem readonly hidden></textarea>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="aviso" data-aviso role="status" aria-live="polite"></div>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
